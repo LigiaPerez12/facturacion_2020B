@@ -83,4 +83,9 @@ for i in range(filA):
 print ("La matriz traspuesta es: ")
 for i in matriz:
         print(i)
-
+#Suma de las matriz
+for i in range (filA)
+	for j in range(colA)
+		matrizSuma[i][j]= matrizA[i][j] + matrizB[i][j]
+print ("La suma de la matriz es: ")
+print matrizSuma	
