@@ -70,4 +70,17 @@ while q < 1:
 	else :
 		print("No se puede multiplicar las dos matrices.")
 		
-	
+#Matriz traspuesta
+matriz = []
+for i in range(colA):
+	mresultado.append([0]*filA)
+
+#asignación y traspuesta
+for i in range(filA):
+        
+        for j in range(colA):
+                mresultado[j][i]=matrizA[i][j] #traspone lo valores de filas y columnas
+print ("La matriz traspuesta es: ")
+for i in matriz:
+        print(i)
+
